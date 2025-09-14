@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Animation
+        </title>
+        <style>
+            /* The animation code */
+@keyframes example{
+    0% {background-color:aquamarine;font-size: 12px;}
+    25% {background-color:aqua;font-size: 24px}
+    50% {background-color:cornflowerblue;font-size:36px}
+    75% {background-color:blue;font-size:48px}
+    100% {background-color:darkblue;font-size:60px}
+}
+/* The Element To Apply Thee Animation To */
+div{
+    width: 500px;
+    height: 500px;
+    background-color:navy;
+    animation-name: example;
+    animation-duration: 9s
+}
+        </style>
+    </head>
+    <body>
+        <div>Hi</div>
+    </body>
+</html>
